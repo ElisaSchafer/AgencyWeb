@@ -1,5 +1,7 @@
 @import url(./global.css);
 
+/* HEADER */
+
 header {
     display: flex;
     justify-content: space-between;
@@ -39,3 +41,79 @@ header {
     padding: 10px 20px;
     border-radius: 10px;
 }
+
+/* MAIN */
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 50px 0px;
+    background-color: var(--color-blue-10);
+}
+
+.main-content {
+    display: flex;  /* Para habilitar o gap */
+    flex-direction: column; /* Organizar em colunas */
+    gap: 30px; /* Espaçento entre os elementos */
+    width: 520px;
+}
+
+.main-content h1 {
+    font-size: var(--font-size-h1);
+    font-family: var(--font-family-primary);
+    color: var(--color-black);
+    font-weight: var(--font-weight-h1);
+}
+
+.main-content h1 span {
+    color: var(--color-blue);
+}
+
+.main-content p {
+    font-size: var(--font-size-body);
+    font-family: var(--font-family-primary);
+    color: var(--color-gray);
+    font-weight: var(--font-weight-body);
+    line-height: 30px;
+}
+
+.container-cta {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-primary, .btn-secondary {
+    padding: 8px 55px;
+    border-radius: 10px;
+    font-weight: var(--font-weight-button);
+    text-decoration: none;
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-button);
+}
+
+
+.btn-primary {
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    transition: 0.3s; /* Delimita o tempo de transição do hover do elemento */
+}
+
+.btn-primary:hover {
+    background-color: #005E89;
+
+}
+
+.btn-secondary {
+    background-color: var(--color-white);
+    color: var(--color-blue);
+    border: 1px solid var(--color-blue);
+    transition: 0.3s;
+}
+
+.btn-secondary:hover {
+    background-color:var(--color-blue-10);
+}
+
+
