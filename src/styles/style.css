@@ -1,2 +1,41 @@
 @import url(./global.css);
 
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+    border-bottom: 0.7px solid var(--color-gray-3);
+}
+
+.container-nav-header {
+    display: flex; 
+    align-items: center;
+    gap: 70px; /* Distância entre os elementos da nav, tem que tero display: flex; */
+}
+
+.navigation-header ul { /* Só vai estilizar as TAGS que estiverem dentro da classe navigation-header */
+    display: flex;
+    gap: 40px;
+    list-style: none; /* Remove a bolinha */
+}
+
+.navigation-header ul li a {
+    text-decoration: none; /* Decoração do texto */
+    color: var(--color-black);
+    font-family: var(--font-family-primary);
+}
+
+.navigation-header ul li .menu-active {
+    color: var(--color-blue);
+}
+
+.btn-header {
+    text-decoration: none;
+    color: var(--color-white);
+    font-family: var(--font-family-primary);
+    font-weight: var(--font-weight-button);
+    background-color: var(--color-blue);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
