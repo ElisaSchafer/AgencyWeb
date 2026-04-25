@@ -44,7 +44,6 @@ header {
 
 .btn-header:hover {
     background-color: #005E89;
-
 }
 
 /* MAIN */
@@ -54,7 +53,7 @@ main {
     justify-content: center;
     align-items: center;
     gap: 50px;
-    padding: 50px 0px;
+    padding: 50px;
     background-color: var(--color-blue-10);
 }
 
@@ -152,4 +151,88 @@ main {
     color: var(--color-gray-2);
 }
 
+/* DETAILS */
 
+.section-details {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    align-items: center;  /* Cuida da horizontal quando utilizar o flex-direction */
+    padding: 80px 0;
+}
+
+.details-presentation {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+}
+
+.details-presentation h2 {
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-h2);
+    font-weight: var(--font-weight-h2);
+    color: var(--color-black);
+}
+
+.details-presentation p {
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-body);
+    color: var(--color-gray-2);
+    width: 665px;
+    margin: 0 auto;  /* Zera a margem da altura (em cima e em baixo) e das laterais fica automático os valores, o sistema defini*/
+}
+
+.service-description {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.content-service {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    /* margin: 27px; */
+}
+
+.service-details {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.service-details div span {
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-h4);
+    font-weight: var(--font-weight-h4);
+    color: var(--color-black);
+}
+
+.service-details div p {
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-caption);
+    font-weight: var(--font-weight-caption);
+    color: var(--color-gray-2);
+}
+
+.content-service h3 {
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-h3);
+    font-weight: var(--font-weight-h3);
+    width: 420px;
+}
+
+.content-service h3 > span {
+    color: var(--color-blue);
+}
+
+.content-service p {
+    font-family: var(--font-family-primary);
+    font-size: var(--font-size-body);
+    font-weight: var(--font-weight-body);
+    color: var(--color-gray);
+    line-height: 27px;
+    width: 445px;
+}
