@@ -42,6 +42,11 @@ header {
     border-radius: 10px;
 }
 
+.btn-header:hover {
+    background-color: #005E89;
+
+}
+
 /* MAIN */
 
 main {
@@ -114,6 +119,37 @@ main {
 
 .btn-secondary:hover {
     background-color:var(--color-blue-10);
+}
+
+/* SERVICES */
+
+.section-services {
+    display: grid; /* Responsividade melhor que o display flex, nesses casos */
+    grid-template-columns: repeat(4, max-content);
+    gap: 25px;
+    padding: 30px 0px;
+    justify-content: center;
+    border-bottom: 0.7px solid var(--color-gray-3);
+}
+
+.container-item-services {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.container-item-services h2 {
+    font-family: var( --font-family-primary);
+    font-weight: var(--font-weight-h4);
+    font-size: var(--font-size-h4);
+    color: var(--color-black);
+}
+
+.container-item-services p {
+    font-family: var(--font-family-primary);
+    font-weight: var(--font-weight-caption);
+    font-size: var(--font-size-caption);
+    color: var(--color-gray-2);
 }
 
 
