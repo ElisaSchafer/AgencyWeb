@@ -105,7 +105,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 <!-- MODELO DE AUTOR-->
 ## 🦸 Autor
 
-<a href="https://br.linkedin.com/in/matheus-maia-alvarez-">
+<a href="https://br.linkedin.com/in/elisa-meneguini">
 Elisa Schafer Meneguini Silva</a>
  <br />
  
@@ -117,8 +117,6 @@ Elisa Schafer Meneguini Silva</a>
 
 <!-- MODELO DE LICENÇA -->
 ## 📝 Licença
-
-Este projeto esta sobe a licença [MIT](./LICENSE).
 
 Feito por Elisa Schafer Meneguini Silva👋 [Entre em contato!](https://br.linkedin.com/in/elisa-meneguini-)
 
